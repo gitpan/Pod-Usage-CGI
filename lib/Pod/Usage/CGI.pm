@@ -3,7 +3,7 @@ package Pod::Usage::CGI;
 use strict;
 use Exporter;
 use vars qw($VERSION @ISA @EXPORT);
-$VERSION = sprintf'%d.%03d', q$Revision: 1.8 $ =~ /: (\d+)\.(\d+)/;
+$VERSION = sprintf'%d.%03d', q$Revision: 1.9 $ =~ /: (\d+)\.(\d+)/;
 @ISA=qw(Exporter);
 @EXPORT=qw(pod2usage);
 
@@ -112,7 +112,7 @@ Generates usage messages for command line scripts
 
 =head1 VERSION
 
-$Revision: 1.8 $ on $Date: 2005/03/11 15:07:36 $ by $Author: tonyh $
+$Revision: 1.9 $ on $Date: 2005/03/14 15:56:13 $ by $Author: tonyh $
 
 =head1 AUTHOR
 
