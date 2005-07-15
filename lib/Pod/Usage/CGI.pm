@@ -3,7 +3,7 @@ package Pod::Usage::CGI;
 use strict;
 use Exporter;
 use vars qw($VERSION @ISA @EXPORT);
-$VERSION = sprintf'%d.%03d', q$Revision: 1.9 $ =~ /: (\d+)\.(\d+)/;
+$VERSION = sprintf'%d.%03d', q$Revision: 1.10 $ =~ /: (\d+)\.(\d+)/;
 @ISA=qw(Exporter);
 @EXPORT=qw(pod2usage);
 
@@ -67,10 +67,10 @@ Pod::Usage::CGI - generate usage message for CGI scripts
 
 	use CGI;
 	use Pod::Usage::CGI;
-	
+
 	#Message is HTML-escaped
 	my $necessary = CGI::param(foo) || pod2usage(message => "you forgot >>foo<<");
-	
+
 	#Raw message is not escaped
 	my $another   = CGI::param(bar) || pod2usage(raw_message => "you forgot <b>bar</b>");
 
@@ -112,7 +112,7 @@ Generates usage messages for command line scripts
 
 =head1 VERSION
 
-$Revision: 1.9 $ on $Date: 2005/03/14 15:56:13 $ by $Author: tonyh $
+$Revision: 1.10 $ on $Date: 2005/07/15 11:25:22 $ by $Author: simonf $
 
 =head1 AUTHOR
 

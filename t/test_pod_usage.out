@@ -1,6 +1,7 @@
 Content-Type: text/html; charset=ISO-8859-1
 
-<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">
 <head>
 	<title>test_pod_usage.cgi</title>
 	
@@ -12,19 +13,24 @@ Content-Type: text/html; charset=ISO-8859-1
 </head>
 <body>
 <div class="message">a message</div>
-<a name="TOP"></a><!-- INDEX START -->
-<h3>Index</h3>
+<div class="pod">
+<!-- INDEX START -->
+<h3 id="TOP">Index</h3>
 <ul>
-	<li><a href="#NAME">NAME</a></li>	<li><a href="#DESCRIPTION">DESCRIPTION</a></li></ul><hr />
+	<li><a href="#NAME">NAME</a></li>
+	<li><a href="#DESCRIPTION">DESCRIPTION</a></li>
+</ul>
+<hr />
 <!-- INDEX END -->
 
-<h1><a name="NAME"></a>NAME</h1><p><a href="#TOP" class="toplink">Top</a></p>
+<h1 id="NAME">NAME</h1><p><a href="#TOP" class="toplink">Top</a></p>
 
 <p>test_pod_usage.cgi - minimal usage of POD::Usage::CGI</p>
 
-<h1><a name="DESCRIPTION"></a>DESCRIPTION</h1><p><a href="#TOP" class="toplink">Top</a></p>
+<h1 id="DESCRIPTION">DESCRIPTION</h1><p><a href="#TOP" class="toplink">Top</a></p>
 
 <p>This is a test script</p>
 
-</body>
+
+</div></body>
 </html>
